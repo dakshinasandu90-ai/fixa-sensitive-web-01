@@ -5,6 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    base: '/fixa-sensitive-web-01/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
